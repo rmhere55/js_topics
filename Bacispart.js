@@ -22,12 +22,55 @@ console.log("hyy")
 // reference type : {}, [], ()
 // array , Objects , Functions 
 
- const heros = ["Rm", "suga ", "jin"]
- let  my= {
-    name :"hitashe",
-    age: 20,
-    add: "yahi"
+//  const heros = ["Rm", "suga ", "jin"]
+//  let  my= {
+//     name :"hitashe",
+//     age: 20,
+//     add: "yahi"
+// }
+// const  f =  function (parameters) {
+//     console.log("hello");
+// } 
+// console.log(f);
+
+//=================================   Memory ========
+
+
+// stack  (Premitive) // Heap memory( refnece data type (non primitive ))\\
+
+let myname = "Rm"
+let petname = "annu"
+petname ="annua "
+console.log(myname);
+console.log(petname);
+let user ={
+    email: "rajlaxmi79812@gmail.com",
+    age: 22
 }
-const  f =  function (parameters) {
-    console.log("hello");
-}
+console.log(user);
+
+//=================================   Stiring ========
+const  name = "Rm"
+const repo = 32
+console.log(`hello my name  is ${name} or my repo is ${repo}`)
+const game = new String ('rmsingh')
+// console.log(game[3]);
+// console.log(game.__proto__);
+console.log(game.toUpperCase());
+console.log(game.charAt(2));
+// reverse finde the character 
+console.log(game.indexOf('n'));
+const newString = game.substring(0,4)
+console.log(newString);  
+//  revese se start kre ga
+const anotherString = game.slice(-8, 4)
+console.log(anotherString);
+const newStringOne = "  hyy  "
+console.log(newStringOne)
+// whitescpce par hi work kre ga 
+console.log(newStringOne.trim());
+ 
+const url = "www.google.come/instagram%30fb"
+ console.log(url.replace('%30','--'));
+
+console.log(url.includes('hyyhrw'));
