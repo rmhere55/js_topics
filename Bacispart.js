@@ -112,9 +112,40 @@ console.log("hyy")
 // console.log(Math.max(88,34,3,22,2,1));
 
 
-console.log((Math.random (88,34,3,22,2,1)*10 )+1);
+// console.log((Math.random (88,34,3,22,2,1)*10 )+1);
 
 
-const min = 1
-const max = 6
-console.log(Math.floor(Math.random() * (max - min + 1))+ min);
+// const min = 1
+// const max = 6
+// console.log(Math.floor(Math.random() * (max - min + 1))+ min);
+
+
+// //=================================   Dates ========
+// let mydate = new Date()
+// console.log(mydate);
+// console.log(mydate.toString());
+// console.log(mydate.toLocaleString());
+// console.log(mydate.toJSON());
+// console.log(mydate.toISOString());
+// console.log(mydate.toDateString());
+// console.log(typeof mydate);
+
+// let mtcreateDate = new Date(2023,11,2)
+// console.log(mtcreateDate.toDateString());
+
+// let mtcreateDat = new Date("01-12-2023")
+// console.log(mtcreateDat.toDateString());
+
+
+// let mytim = Date.now()
+
+
+// console.log(mytim);
+// console.log(mtcreateDat.getTime());
+    
+// console.log(Math.floor(Date.now()/1000));
+// let newdate = new Date()
+// console.log(newdate);
+// console.log(newdate.getMonth());
+// console.log(newdate.getDate());
+
