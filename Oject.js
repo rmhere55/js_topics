@@ -1,28 +1,28 @@
 // single literals
 // const newuser = new Object()
-const newuser ={}
-newuser.id = "Rm"
-newuser.name = "Rmsingh"
-newuser.age = 21
+// const newuser ={}
+// newuser.id = "Rm"
+// newuser.name = "Rmsingh"
+// newuser.age = 21
 
-console.log(newuser);
-const regular ={
-    email: "rm@gmail.com",
-    fulnmane:{
-        firstname : "rm",
-        lastname: "singh"
-    }
-}
+// console.log(newuser);
+// const regular ={
+//     email: "rm@gmail.com",
+//     fulnmane:{
+//         firstname : "rm",
+//         lastname: "singh"
+//     }
+// }
 
-console.log(regular.fulnmane?.firstname);
+// console.log(regular.fulnmane?.firstname);
 
-const obj1 ={1: "a", 2:"b"}
-const obj2 ={3: "a", 4:"b"}
+// const obj1 ={1: "a", 2:"b"}
+// const obj2 ={3: "a", 4:"b"}
 
-// const obj3 = {obj1 ,obj2}
+// // const obj3 = {obj1 ,obj2}
 
-const obj3 = Object.assign({}, obj1 ,obj2)
-console.log(obj3);
+// const obj3 = Object.assign({}, obj1 ,obj2)
+// console.log(obj3);
 
 
 // object litrals
@@ -50,4 +50,13 @@ console.log(obj3);
 // console.log(isUser);
 
 
+const course ={
+    cousename: "js shikho",
+    price: "999"
+}
 
+course.cousename
+
+const {cousename : instru} = course
+
+console.log(instru);
