@@ -51,4 +51,38 @@ async function readInput() {
 }
 readInput();
 //========== User's Code Ends Here ==========
- 
+         
+
+    //   ? reverse number //
+    
+
+//========== User's Code Starts Here ==========
+'use strict';
+
+process.stdin.setEncoding('utf-8');
+/**
+ * @return {number}
+ * @param {int} n
+ */
+let num
+function reverse(n){
+    /* Function to return the reverse of a number n */
+       num = n.toString().split("").reverse().join("");
+    return parseInt(num, 10);
+}
+
+//Dont change anything below. If changed click on reset.
+async function readInput() {
+        let inputString = '';
+        process.stdin.on('data', inputStdin => {
+            inputString += inputStdin;
+            const inputArr = inputString.split(/(?:\r\n|\r|\n)/g)
+            // console.log(inputArr);
+            console.log(reverse(parseInt(inputArr[0])))
+            process.exit();
+
+        })
+
+}
+readInput();
+//========== User's Code Ends Here ==========
