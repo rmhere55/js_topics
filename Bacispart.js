@@ -1,4 +1,29 @@
+"use strict" //treat all js code as newer version
 console.log("hyy")
+//  alert(3+3) // wea are useing nodejs , not browser 
+// code readability should be high3-
+console.log(3+3);
+
+// null >standalone value;
+// undfined >
+// symbol => umique
+
+// object
+// typeof 
+// typeof null >= Object
+/* var   perefer donot use var because of issue of block scop or function scop*/
+let score = "33a" //null hoga to 0 || undifine hoga to nan||string then nan
+
+let value = Number(score)
+let login = 1 
+let log = Boolean(login)
+console.log(log);    // true   0 = false | ""= false | "hn" = true 
+console.log(value);
+
+// "33 "> 33
+// 33abc => NaN
+// true = 1 ; false => 0
+
 //  =======================Opreaters================================
 // console.log(9**9)  9 sqare 9
 // let b2
@@ -18,7 +43,7 @@ console.log("hyy")
 //================ data type summary for  inter views=====================//
 // primitives 
 // 7 types : String , number , boolearn , null , undefined ,symbols , bigInt 
-// const score = false;
+// const score = Symbol('123');  
 // reference type : {}, [], ()
 // array , Objects , Functions 
 
